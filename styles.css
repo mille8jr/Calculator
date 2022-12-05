@@ -1,0 +1,125 @@
+
+.main-container {
+    position: absolute;
+    width: 528px;
+    height: 870px;
+
+    background: #67676F;
+}
+
+.display {
+    position: absolute;
+    width: 464px;
+    height: 180px;
+    left: calc(50% - 464px/2);
+    top: 0px;
+
+    background: #000000;
+    border-radius: 10px;
+}
+
+.h1 {
+
+}
+
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    /* position: absolute;
+    width: 342px;
+    height: 101px;
+    left: 0px;
+    top: 204px; */
+}
+
+.toolbar-button {
+    position: absolute;
+    width: 98px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+    
+    background: #3F4836;
+    border-radius: 9px;
+}
+
+.h2 {
+
+}
+
+.number-pad {
+    position: absolute;
+    width: 342px;
+    height: 347px;
+    left: 0px;
+    top: 329px;
+}
+
+.number-pad-button {
+    position: absolute;
+    width: 98px;
+    height: 101px;
+    left: 0px;
+    top: 246px;
+    
+    background: #BCBCBC;
+    border-radius: 9px;
+}
+
+.zero {
+    position: absolute;
+    width: 220px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+}
+
+.zero-button {
+    position: absolute;
+    width: 220px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+    
+    background: #BCBCBC;
+    border-radius: 9px;
+}
+
+.h3 {
+
+}
+
+.function-keys {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 22px;
+
+    position: absolute;
+    width: 98px;
+    height: 593px;
+    left: 367px;
+    top: 204px;
+}
+
+.fuction-keys-button {
+    position: absolute;
+    width: 98px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+    
+    background: #C6FFB3;
+    border-radius: 9px;
+}
+
+.h4 {
+
+}
